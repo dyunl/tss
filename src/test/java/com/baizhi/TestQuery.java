@@ -32,11 +32,12 @@ public class TestQuery {
     @Test
     public void contextLoads() throws Exception{
 
-        Map<String, String> query = poertyService.query("月", 1, 100);
+       // Map<String, String> query = poertyService.query("月", 1, 100);
 
-        Set<String> keys = query.keySet();
+        //Set<String> keys = query.keySet();
 
-        keys.forEach(k-> System.out.println(k+"---"+query.get(k)));
+        //keys.forEach(k-> System.out.println(k+"---"+query.get(k)));
+        System.out.println("修改前");
 
     }
 }
